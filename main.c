@@ -168,7 +168,7 @@ OpenCl_Calc(queue,d_output,d_b,d_a,x_host,size_A_matrix);
     free(B_host);
 //    
 //    // Finally, release your queue just as you would any GCD queue.    // 11
-//    dispatch_release(queue);
+ dispatch_release(queue);
     
     
   
